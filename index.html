@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipie Responser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h3 class="font-semibold text-2xl text-center mt-20"><a class="hover:underline underline-offset-8" href="index.html">Recipe Responser</a> - Generate the reciepe of your Favourite food 🍜.</h3>
+    <div class="main mt-20">
+        <form action="#" method="get" class="flex sm:flex-row flex-col justify-center items-center gap-4">
+            <label for="" class="font-semibold">Enter name of dish :</label>
+            <input type="text" id="dish" class="border-solid border border-black rounded-md w-60 text-black h-[32px] py-[2px] px-4" placeholder="Recipe Name">
+            <button id="enter" type="submit" class="border border-solid border-blue-900 px-[12px] py-[6px] rounded-lg bg-blue-700 text-white hover:bg-blue-800">Get Recipe</button>
+        </form>
+        <h3 class="mt-8 mb-8 font-semibold text-xl sm:text-2xl text-center"id="title_here"></h3>
+        <span id="recipie" class="my-8 flex flex-row justify-center items-center px-4 text-center"></span>
+        <div class="wrap flex flex-col items-center justify-center" id="wrapper">
+            <span id="names" class="text-black text-sm sm:text-xl text-start w-4/5 list-disc rounded-[24px] flex flex-col min-w-lg px-12 sm:px-20 py-8 mb-12 space-y-4">
+            </span> 
+            <span id="list" class="w-full sm:w-3/4 text-sm sm:text-xl">
+            </span> 
+        </div>
+    </div>
+    <script src="index1.js"></script>
+</body>
+</html>

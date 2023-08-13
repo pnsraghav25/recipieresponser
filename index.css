@@ -1,0 +1,17 @@
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    caret-color: blue;
+}
+::selection{
+    background-color: rgb(43, 43, 244);
+    color: white;
+}
+::placeholder{
+    padding-left: 8px;
+}
+.wrap{
+    display: none;
+}
